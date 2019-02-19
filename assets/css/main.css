@@ -1778,11 +1778,11 @@ input, select, textarea {
 	}
 
 		#banner h2 {
-			border: solid 1px rgba(255, 255, 255, 0.25);
+			border: solid 1px lawngreen;
 			border-left: 0;
 			border-right: 0;
-			color: #fff;
-			color: rgba(255, 255, 255, 0.75);
+			color: lawngreen;
+			color: lawngreen; 
 			font-size: 2.35em;
 			font-weight: 700;
 			line-height: 1.3em;
@@ -1791,15 +1791,15 @@ input, select, textarea {
 
 			#banner h2 strong {
 				font-weight: 800;
-				color: inherit;
+				color: lawngreen;
 			}
 
 			#banner h2:before {
 				content: '';
 				display: block;
 				border-top: solid 1px;
-				border-color: #888;
-				border-color: rgba(255, 255, 255, 0.25);
+				border-color: lawngreen;
+				border-color: lawngreen;
 				margin: 10px 0 1.25em 0;
 			}
 
@@ -1807,15 +1807,14 @@ input, select, textarea {
 				content: '';
 				display: block;
 				border-bottom: solid 1px;
-				border-color: #888;
-				border-color: rgba(255, 255, 255, 0.25);
+				border-color: lawngreen;
+				border-color: lawngreen;
 				margin: 1.25em 0 10px 0;
 			}
 
 		#banner p {
 			text-transform: uppercase;
-			color: #fff;
-			color: rgba(255, 255, 255, 0.75);
+			color: lawngreen;
 			font-size: 1.5em;
 			font-weight: 700;
 			line-height: 1.3em;
@@ -1837,7 +1836,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("images/bg01.png"), url("../../images/header.jpg");
+		background: url("images/.png"), url("../../images/background.jpg");
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
